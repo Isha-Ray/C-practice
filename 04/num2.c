@@ -1,26 +1,32 @@
-// Write a complete program to add two numbers.
+/* Calculate Simple Interest 
+   ( S.I = p * r * t / 100 )   */
 
-// Modify the above program to subtract two numbers.
 
-// Write a program with both single-line and multi-line comments.
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float principle, rate, time, interest;
 
-// Write a program where you forget the return statement. What happens?
+    printf("Enter Principle Amount: ");
+    scanf("%f", &principle);
 
-// Add #include<conio.h> and use getch() — what does it do?
+    printf("Enter Rate of Interest: ");
+    scanf("%f", &rate);
 
-// Write a program to input your name and age, then print them.
+    printf("Enter time(in years): ");
+    scanf("%f", &time);
 
-// Rearrange a working C program incorrectly (e.g., write code outside main()), then fix it.
+    interest = (principle * rate * time) / 100;
 
-// Write a program with multiple printf() statements to display:
+    printf("Simple Interest = %.3f", interest);
+    
+}
 
-// makefile
-// Copy
-// Edit
-// Name: Alex
-// Age: 21
-// Grade: A
-// Write a C program that takes two inputs and performs all arithmetic operations.
+/* Output ------------
 
-// Remove the semicolon ; from a program and check what error you get.
+Enter Principle Amount: 245
+Enter Rate of Interest: 4.2
+Enter time(in years): 4.5
+Simple Interest = 46.305
 
+*/

@@ -1,19 +1,22 @@
-// What are the main parts of a C program?
+// Calculate Area of Circle.
+// Area = 3.14 × r x r 
 
-// What is the role of #include<stdio.h> in a C program?
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float radius, area;
+    printf("Enter the radius of Circle: ");
+    scanf("%f", &radius);
 
-// What is the use of main() function?
+    area = 3.14 * radius * radius;
 
-// What are comments in C? Write single-line and multi-line comment examples.
+    printf("The area of circle is: %.2f", area);
 
-// Write a C program to input your name and age and print it.
+}
 
-// What is the return type of the main function? Why is it required?
+/* Output --------------- 
 
-// What is the correct way to end a statement in C?
+Enter the radius of Circle: 9.14
+The area of circle is: 262.31
 
-// Write a C program that takes two numbers as input and prints their product.
-
-// Where should we write the declaration part in a C program?
-
-// Explain the difference between void main() and int main().
+*/
