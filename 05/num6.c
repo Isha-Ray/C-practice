@@ -15,3 +15,8 @@ int main() {
     printf("Reversed number = %d", rev);
     return 0;
 }
+
+/* Output --------------
+Enter a number: 876
+Reversed number = 678
+*/

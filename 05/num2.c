@@ -15,3 +15,9 @@ int main() {
     printf("Sum of digits = %d", sum);
     return 0;
 }
+
+/* Output --------------
+Enter a number: 765
+Sum of digits = 18
+*/
+

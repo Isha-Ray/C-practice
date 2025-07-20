@@ -25,6 +25,7 @@ int main() {
     return 0;
 }
 
+
 /* Output ---------------
 Enter a number: 9
 9 is not a prime number.

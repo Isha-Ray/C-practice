@@ -20,6 +20,7 @@ int main() {
     return 0;
 }
 
+
 /* Output ---------------
 Enter a number: 9
 Factorial = 362880
