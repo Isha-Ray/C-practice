@@ -5,9 +5,9 @@
 int main() {
     int i, j;
 
-    for(i = 1; i <= 5; i++) {         
-        for(j = 1; j <= 10; j++) {     
-            printf("%d x %d = %d\t", i, j, i * j);
+    for(i = 1; i <= 5; i++) {   //This outer loop runs from 1 to 5.
+        for(j = 1; j <= 10; j++) {     //This inner loop runs from 1 to 10.
+            printf("%d * %d = %d\t", i, j, i * j); // '\t' gives a tab space between outputs to make them aligned.
         }
         printf("\n");   
     }

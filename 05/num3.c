@@ -12,7 +12,7 @@ int main() {
         for(i = 2; i <= num / 2; i++) {
             if(num % i == 0) {
                 isPrime = 0;
-                break;
+                break;  // break; ← exit the loop immediately
             }
         }
     }
@@ -30,3 +30,5 @@ int main() {
 Enter a number: 9
 9 is not a prime number.
 */
+
+// Example of prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...

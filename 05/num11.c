@@ -36,3 +36,8 @@ int main() {
 
     return 0;
 }
+
+/* Output ---------------------------------------------------
+Enter a number (1 to 7): 2
+Tuesday
+*/
