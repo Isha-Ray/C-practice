@@ -1,3 +1,5 @@
+// Matrix Addition
+
 //Add two 2D arrays of size 2×3 and display the result.
 
 #include <stdio.h>
