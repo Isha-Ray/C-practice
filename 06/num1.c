@@ -67,7 +67,7 @@ Accessing an index outside the valid range of an array leads to undefined behavi
 ----> In C, when you pass an array to a function, you're actually
  passing a pointer to the first element of the array — not the entire array.
 
-// Passes as	Pointer to first element (int *arr)
+// Passes as Pointer to first element (int *arr)
 */
 
 /* Explain static vs dynamic arrays.
@@ -84,4 +84,38 @@ Limitations:
 Slightly slower than static arrays (heap access)
 Must manage memory manually using free()
 More complex syntax
+*/
+
+/* what is storage classes?
+------> In C programming, storage classes define four main things about a variable:
+
+Scope – Where the variable can be accessed
+Lifetime – How long the variable exists in memory
+Default value – If not initialized, what it contains
+Storage location – Whether it’s stored in memory or CPU registers
+
+Types of Storage Classes in C:
+
+Storage Class       	Keyword	Scope	        Lifetime	                Default Value	                Stored In
+Automatic	                auto	            Local (block)	        Inside function	Garbage value	        RAM
+External	                extern	             Global	            Entire program	0 (if uninitialized)	    RAM
+Static	                    static	            Local/Global	    Entire program	0 (if uninitialized)	    RAM
+Register	                register	        Local (block)	        Inside function	Garbage value	    CPU Register (if available)
+
+*/
+
+/* Global and Local Variables : -----------------------------
+
+Local Variable -------------------------------------
+Declared inside a function or block ({ })
+Can be accessed only within that function/block
+Created when the function is called, and destroyed when it ends
+Default value: Garbage (if not initialized)
+
+Global Variable -----------------------------------------
+Declared outside all functions (usually at the top)
+Can be accessed by any function in the program
+Exists throughout the entire program execution
+Default value: 0 (if not initialized)
+
 */
