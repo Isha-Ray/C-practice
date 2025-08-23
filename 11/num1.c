@@ -105,7 +105,7 @@ Example -----------------------------------------------------------
 
 Note :
 Dot operator is used only with normal structure variables.
-For pointers to structures, use -> instead of .
+For pointers to structures, use '->' instead of '.'(dot).
 
 */
 
